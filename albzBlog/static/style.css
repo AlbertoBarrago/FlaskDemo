@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #eee;
     padding: 1rem;
 }
@@ -11,13 +11,13 @@ body {
 }
 
 h1 {
-    font-family: serif;
-    color: #377ba8;
+    font-family: 'Roboto Slab', serif;
+    color: #2196F3; /* Material Blue */
     margin: 1rem 0;
 }
 
 a {
-    color: #377ba8;
+    color: #2196F3; /* Material Blue */
 }
 
 hr {
@@ -26,10 +26,10 @@ hr {
 }
 
 nav {
-    background: lightgray;
+    background: black; /* Material Blue */
     display: flex;
     align-items: center;
-    padding: 0 0.5rem;
+    padding: 0 1rem; /* Increased padding */
 }
 
 nav h1 {
@@ -39,7 +39,8 @@ nav h1 {
 
 nav h1 a {
     text-decoration: none;
-    padding: 0.25rem 0.5rem;
+    color: white; /* White text for contrast */
+    padding: 0.5rem 1rem; /* Increased padding */
 }
 
 nav ul {
@@ -51,11 +52,11 @@ nav ul {
 
 nav ul li a, nav ul li span, header .action {
     display: block;
-    padding: 0.5rem;
+    padding: 1rem; /* Increased padding */
 }
 
 .content {
-    padding: 0 1rem 1rem;
+    padding: 1rem;
 }
 
 .content > header {
@@ -67,6 +68,7 @@ nav ul li a, nav ul li span, header .action {
 .content > header h1 {
     flex: auto;
     margin: 1rem 0 0.25rem 0;
+    color: #2196F3; /* Material Blue */
 }
 
 .flash {
@@ -117,6 +119,7 @@ nav ul li a, nav ul li span, header .action {
 
 .content input, .content textarea {
     margin-bottom: 1em;
+    padding: 0.5em; /* Increased padding */
 }
 
 .content textarea {
@@ -131,4 +134,9 @@ input.danger {
 input[type=submit] {
     align-self: start;
     min-width: 10em;
+    background: #2196F3; /* Material Blue */
+    color: white; /* White text for contrast */
+    padding: 0.5em 1em; /* Increased padding */
+    border: none;
+    cursor: pointer;
 }
