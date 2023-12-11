@@ -10,6 +10,7 @@ def create_app(test_config=None):
         SECRET_KEY='dev',
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
+    app.app_context().push()
 
     from . import db
     db.init_app(app)

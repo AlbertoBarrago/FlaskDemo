@@ -1,7 +1,7 @@
 import sqlite3
 
 import click
-from flask import current_app, g
+from flask import current_app, g, app
 
 
 def init_app(app):
