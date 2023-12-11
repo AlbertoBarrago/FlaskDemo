@@ -13,5 +13,8 @@ _Run application_
 $ flask --app albzBlog run --debug
 ```
 
+### TODO
+- [ ] Add quadrant cluster
+
 ### Collaboration 
 You are ever welcome to join
